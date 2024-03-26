@@ -15,8 +15,10 @@ Useful for tracking data that don't want to be lost due to system resets. If dat
 
 ## Library functionalities
 - Conveniently declaring and defining custom ram retention type data.
-- Conveniently declaring and defining convenient primitive (int, float, int16_t etc) ram retention type data.
-- Conveniently initializing any type of ram retention type data.
+- Conveniently defining convenient primitive (int, float, int16_t etc) ram retention type data.
+- Conveniently initializing any type of data for ram retention.
+- Conveniently externing declared ram retention type data.
+- Conveniently retaining values after after data  modification.
 
 ## Sample Application
 Includes sample application for demonstrating some routines, see main.c
